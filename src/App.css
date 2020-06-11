@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  text-align: center; 
 }
 
 .App-logo {
@@ -35,4 +35,43 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+span{  
+  display: block;
+  background-color: antiquewhite;
+  padding: 10px;
+  margin: 5px;
+}
+
+span:hover{
+  background-color: green;
+}
+
+.list-wrapper{
+  display: inline-block;
+  border : 1px solid black;
+  margin : auto;
+  width : 500px;
+}
+
+.nav-bar{
+  background-color : whitesmoke ;
+
+}
+
+.nav-bar a{  
+  padding: 10px;  
+  display: flex; 
+  align-items: center;
+}
+
+.icon-wrapper{
+  padding: 10px;
+}
+
+.operations-wrapper a{
+  display: inline;
+  padding: 10px;
+ 
 }

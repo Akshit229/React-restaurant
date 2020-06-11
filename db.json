@@ -1,0 +1,18 @@
+{
+  "restaurant": [
+    {
+      "name": "Masala chowk",
+      "email": "chowk@gmail.com",
+      "address": "mansarovar",
+      "rating": "2.0",
+      "id": 4
+    },
+    {
+      "name": "temp1",
+      "email": "temp2",
+      "address": "rail nagar",
+      "rating": "4",
+      "id": 6
+    }
+  ]
+}
