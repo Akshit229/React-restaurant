@@ -1,4 +1,7 @@
 import React, { Component } from 'react'
+import NavBarMenu from './NavBarMenu'
+
+
 class RestaurantUpdate extends Component {
 
     constructor(props){
@@ -46,14 +49,13 @@ class RestaurantUpdate extends Component {
         })
     }
 
-
-
     render() {
         console.warn(this.props.match.params.id)
         console.log(this.state)
         console.log("inside the render function of RestaurantUpdate.js");
         return (
             <div>
+                <NavBarMenu/>
                 <h1>Restaurant Update</h1>
                 <div>
                     <input onChange={(event)=>{this.setState({name:event.target.value})}} placeholder = "Restaurant Name"

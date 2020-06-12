@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import NavBarMenu from './NavBarMenu'
 
 
 
@@ -32,6 +33,7 @@ class RestaurantCreate extends Component {
             <div>
                 <h1>Restaurant Create</h1>
                 <div>
+                <NavBarMenu/>
                     <input onChange={(event)=>{this.setState({name:event.target.value})}} placeholder = "Restaurant Name"/><br/><br/>
                     <input onChange={(event)=>{this.setState({email:event.target.value})}} placeholder = "Restaurant Email"/><br/><br/>
                     <input onChange={(event)=>{this.setState({rating:event.target.value})}} placeholder = "Restaurant Rating"/><br/><br/>

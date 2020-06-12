@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import {Table, Form, Container} from 'react-bootstrap'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCoffee, faEdit, faTrash } from '@fortawesome/free-solid-svg-icons'
+import NavBarMenu from './NavBarMenu'
 import { 
     Link
   } from 'react-router-dom'; //this has been installed specifically by me  -- using npm install reeact-router-dom
@@ -64,9 +65,11 @@ export class RestaurantSearch extends Component {
     render() {
         return (
             <div>
+                <NavBarMenu/>
                 <h1>Restaurant Search</h1>
                 {/* <input type="text" onChange = {(event) => this.search(event.target.value)}/> */}                
                 <Container>
+                    {/* container automatically sets space on either side of the page */}
                 <Form.Control type="text" placeholder="Search here.." onChange = {(event) => this.search(event.target.value)}/>
                     {
                         <Table striped bordered hover size="sm">

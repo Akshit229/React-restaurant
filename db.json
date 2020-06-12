@@ -1,9 +1,17 @@
 {
+
+  "login" : [
+    {
+      "name" : "John Doe",
+      "password" : "123"
+    }  
+  ],
+
   "restaurant": [
     {
       "name": "Masala chowk",
       "email": "chowk@gmail.com",
-      "address": "mansarovar",
+      "address": "mansarovar, jaipur",
       "rating": "2.0",
       "id": 4
     },
@@ -13,6 +21,13 @@
       "address": "rail nagar",
       "rating": "4",
       "id": 6
+    },
+    {
+      "name": "McDonalds",
+      "email": "mcd@yahoo.com",
+      "address": "Elements mall",
+      "rating": "3.6",
+      "id": 7
     }
   ]
 }

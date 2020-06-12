@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import {Table} from 'react-bootstrap'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCoffee, faEdit, faTrash } from '@fortawesome/free-solid-svg-icons'
+import NavBarMenu from './NavBarMenu'
 
 // this is the id that i used to load icons in my application
 // https://fontawesome.com/icons/trash?style=solid
@@ -60,6 +61,7 @@ class RestaurantList extends Component {
                 {
                     this.state.list ?
                         <div>
+                            <NavBarMenu/>
                             <Table striped bordered hover size="sm">
                                 <thead>
                                     <tr>
